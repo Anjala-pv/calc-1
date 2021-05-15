@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <title>INDEX</title>
+     <!--font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <!--css -->
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <link rel="stylesheet" type="text/css" href="Style1.css">
+    <script src="style2.js"></script>
+    
+
+    </head>
+    <body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">My Calculator</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">More</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sign Up</a>
+          </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+<!-- calculator -->
+    <!--<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<div class="container">
+        <div class="screen">
+      Hello 
+        </div><br>
+        <button class="btn">1</button>
+        <button class="btn">2</button>
+        <button class="btn">3</button>
+        <button class="btn operator">+</button><br>
+        <button class="btn">4</button>
+        <button class="btn">5</button>
+        <button class="btn">6</button>
+        <button class="btn operator">-</button><br>
+        <button class="btn">7</button>
+        <button class="btn">8</button>
+        <button class="btn">9</button>
+        <button class="btn operator">X</button><br>
+        <button class="btn operator">.</button>
+        <button class="btn operator">%</button>
+        <button class="btn operator">/</button>
+        <button class="btn operator">=</button><br>
+    </div>-->
+    <!--carousel-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="pic1.jpg" class="d-block w-100" style="height: 700px;" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="tria2.jpg" class="d-block w-100" style="height: 700px;" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="pic3.jpg" class="d-block w-100" style="height: 700px;" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>-->
+
+<!--services offered-->
+<section id="services_offered" class="container">
+<h1 class="text-center">
+  GET_STARTED!
+</h1>
+<form class="calc">
+    <p class="calc-display">
+      <input type="text" name="res" id="res" value="4815.1623" class="calc-display-input" onfocus="this.blur()">
+    </p>
+    <p class="calc-row">
+      <button type="button" class="calc-button calc-button-gray" onclick="s('Just....')">mrc</button>
+      <button type="button" class="calc-button calc-button-gray" onclick="s('....do..')">m-</button>
+      <button type="button" class="calc-button calc-button-gray" onclick="s('......it')">m+</button>
+      <button type="button" class="calc-button calc-button-red calc-button-big" onclick="a('/')">÷</button>
+    </p>
+    <p class="calc-row">
+      <button type="button" class="calc-button" onclick="a('7')">7</button>
+      <button type="button" class="calc-button" onclick="a('8')">8</button>
+      <button type="button" class="calc-button" onclick="a('9')">9</button>
+      <button type="button" class="calc-button calc-button-red calc-button-big" onclick="a('*')">x</button>
+    </p>
+    <p class="calc-row">
+      <button type="button" class="calc-button" onclick="a('4')">4</button>
+      <button type="button" class="calc-button" onclick="a('5')">5</button>
+      <button type="button" class="calc-button" onclick="a('6')">6</button>
+      <button type="button" class="calc-button calc-button-red calc-button-big" onclick="a('-')">-</button>
+    </p>
+    <p class="calc-row">
+      <button type="button" class="calc-button" onclick="a('1')">1</button>
+      <button type="button" class="calc-button" onclick="a('2')">2</button>
+      <button type="button" class="calc-button" onclick="a('3')">3</button>
+      <button type="button" class="calc-button calc-button-red calc-button-big" onclick="a('+')">+</button>
+    </p>
+    <p class="calc-row">
+      <button type="button" class="calc-button" onclick="a('0')">0</button>
+      <button type="button" class="calc-button" onclick="a('.')">.</button>
+      <button type="button" class="calc-button" onclick="s('')">C</button>
+      <button type="button" class="calc-button calc-button-yellow calc-button-big" onclick="e()">=</button>
+    </p>
+  </form>
+<!--<hr>
+<div class="row">
+  <div class="col-sm-4 services-column">
+    <img src="pic5.jpg" class="img-fluid img-responsive" width="50%">
+    <p class="services-content">Data Science</p>
+    <button type="button" class="btn btn-dark">START</button>
+  </div>
+  <div class="col-sm-4 services-column">
+    <img src="pic5.jpg" class="img-fluid img-responsive" width="50%">
+    <p class="services-content">Machine Learning</p>
+    <button type="button" class="btn btn-dark">START</button>
+  </div>
+  <div class="col-sm-4 services-column">
+    <img src="pic5.jpg" class="img-fluid img-responsive" width="50%">
+    <p class="services-content">Artificial Intelligence</p>
+    <button type="button" class="btn btn-dark">START</button>
+  </div>
+</div>-->
+</section>
+<!--<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<div class="container">
+        <div class="screen">
+         Hello 
+        </div><br>
+        <button class="btn">1</button>
+        <button class="btn">2</button>
+        <button class="btn">3</button>
+        <button class="btn operator">+</button><br>
+        <button class="btn">4</button>
+        <button class="btn">5</button>
+        <button class="btn">6</button>
+        <button class="btn operator">-</button><br>
+        <button class="btn">7</button>
+        <button class="btn">8</button>
+        <button class="btn">9</button>
+        <button class="btn operator">X</button><br>
+        <button class="btn operator">.</button>
+        <button class="btn operator">%</button>
+        <button class="btn operator">/</button>
+        <button class="btn operator">=</button><br>
+    </div>
+  -->
+
+
+<!--gallery and buy now -->
+  <!--<section id="gallery" class="container">
+  <div class="row" >-->
+    <!--<div class="col-sm-6" class="image-div">
+    <img src="https://images.unsplash.com/photo-1598705352140-be8e33a97d55?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1874&q=80" class="img-fluid img-responsive" width="50%">
+    </div>-->
+    <!--<div class="img-container col-sm-6"> 
+      <img src="https://images.unsplash.com/photo-1598705352140-be8e33a97d55?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1874&q=80" width="50%" class="img-fluid img-responsive" alt="John Doe">
+    </div>
+    <div class="col-sm-6">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+  </div>
+  <div class="row" >
+    <div class="col-sm-6">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>-->
+    <!--<div class="img-container col-sm-6"> 
+      <img src="https://images.unsplash.com/photo-1598705352140-be8e33a97d55?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1874&q=80" width="50%" class="img-fluid img-responsive" alt="John Doe">
+    </div>
+  </div>
+  <div class="row" >
+    <div class="img-container col-sm-6"> 
+      <img src="https://images.unsplash.com/photo-1598705352140-be8e33a97d55?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1874&q=80" width="50%" class="img-fluid img-responsive" alt="John Doe">
+    </div>
+    <p></p>
+    <div class="col-sm-6">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+  </div>
+  <div class="d-grid gap-2">
+  <button class="btn btn-dark" type="button">play quiz</button>
+  <button class="btn btn-dark" type="button">start</button>
+</div>
+</section>-->
+       <!--footer-->
+       <footer>
+        <div class="row">
+         <div class="col-sm-4">
+           <img src="logoo.png" class="img-fluid img-responsive">
+         </div>
+         <div class="col-sm-4 text-center">
+          <h2 style="font-size: 24px;">links</h2>
+          <hr style="border: 2px solid #FFFFFF;">
+             <a href="#" class="footer-link">about</a><br>
+             <a href="#" class="footer-link">privacy policy</a><br>
+             <a href="#" class="footer-link">terms and conditions</a><br>
+         </div>
+         <div class="col-sm-4 text-center">
+           <h2 style="font-size: 24px;">Contact Us</h2>
+          <hr style="border: 2px solid #FFFFFF;">
+           <p>phone  : 086745678</p>
+           <p>Email  : mycalculator@help.com</p>
+         </div>
+         </div>
+         <p class="text-center">Copyright &copy; Online Calculator 2020. All Rights Reserved.</p>
+         <p class="text-center">Made with &hearts; in India</p>
+       </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
